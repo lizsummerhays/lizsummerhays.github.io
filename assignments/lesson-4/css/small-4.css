@@ -1,0 +1,99 @@
+
+header {
+    margin: 10px auto;
+    text-align: center;
+    background-color: #a7cced;
+    color: #ffffff;
+    font-size: 40px;
+}
+
+header img, .headings {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 10px;
+}
+
+.motto {
+    font-family: 'Courgette', cursive;
+    font-size: 25px;
+}
+
+header nav, nav a, nav ul, nav li{
+    font-size: 20px;
+    background-color: #385a7f;
+    color: #ffffff;
+    text-decoration: none;
+    list-style-type: none;
+    padding: 5px;
+
+}
+nav li:active, nav li a:active {
+    background-color: #7ea0b7;
+}
+
+article {
+    background-color: #d2ebf2;
+    margin: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+}
+
+article img {
+    display: block;
+    margin: auto;
+}
+
+.summary {
+    padding-bottom: 15px;
+}
+
+.summary img {
+    float: right;
+    padding-right: 20px;
+}
+
+.summary p {
+    padding-left: 20px;
+    background-color: rgba(56, 90, 127, 0.801);
+    color: #ffffff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.summary p span {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.preston {
+    text-align: center;
+}
+
+article h2 {
+    font-size: 30px;
+}
+
+
+article h2 span {
+    font-size: 15px;
+}
+
+address {
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: center;
+}
+
+address img {
+    display: block;
+    margin: auto;
+}
+
+#footerbar {
+    text-align: center;
+    background-color: #385a7f;
+    color: #ffffff;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
