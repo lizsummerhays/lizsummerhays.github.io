@@ -1,0 +1,75 @@
+@media only screen and (min-width: 768px) {
+
+.navigation li:first-child {
+    display: none;
+}
+
+.navigation li {
+    display: inline-block;
+    margin-right: 1rem;
+}
+
+main {
+    width: 85%;
+    margin: auto;
+}
+
+#forecast {
+    display: block;
+    width: max-content;
+    margin: 10px auto 10px auto;
+}
+
+#forecast h2 {
+    padding: 5px;
+    text-align: center;
+}
+
+#forecast img {
+    margin-top: -130px;
+    margin-bottom: -100px;
+}
+
+.story img {
+    display: block;
+    float: right;
+    margin-left: 10px;
+}
+
+.story p {
+    padding-bottom: 20px;
+}
+
+
+footer, address {
+    display: block;
+    text-align: left;
+}
+
+#footerbar {
+    padding: 5px;
+    clear: both;
+}
+
+
+address, address img {
+    display: inline-block;
+    float: left;
+    margin-left: 0;
+    padding-left: 25px;
+}
+
+footer img {
+    display: inline-block;
+    float: left;
+    margin-left: 5px;  
+}
+
+iframe {
+    display: block;
+    width: max-content;
+    margin: 5px auto 5px auto;
+}
+
+
+}
