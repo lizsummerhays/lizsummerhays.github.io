@@ -53,14 +53,14 @@ footer, address {
 
 
 address, address img {
-    display: inline-block;
+    display: block;
     float: left;
     margin-left: 0;
     padding-left: 25px;
 }
 
 footer img {
-    display: inline-block;
+    display: block;
     float: left;
     margin-left: 5px;  
 }

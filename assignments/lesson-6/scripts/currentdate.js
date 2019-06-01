@@ -28,6 +28,3 @@ var m = month[d.getMonth()];
 var y = d.getFullYear();
 
 document.getElementById("date").innerHTML = w + ", " + n + " " + m + " " + y;
-
-
-
