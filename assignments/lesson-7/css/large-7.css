@@ -1,4 +1,4 @@
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 900px) {
 
 .navigation li:first-child {
     display: none;
@@ -96,6 +96,12 @@ iframe {
     display: block;
     width: max-content;
     margin: 5px auto 5px auto;
+}
+
+#images {
+    display: grid;
+    grid-template-columns: 33% 34% 33%;
+    grid-gap: 0;
 }
 
 

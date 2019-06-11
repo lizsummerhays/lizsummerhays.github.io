@@ -17,7 +17,7 @@ header img, .headings {
 header img {
     width: 25%;
     padding-top: 20px;
-    margin-bottom: -50px;
+    margin-bottom: -20px;
 }
 
 .motto {
@@ -176,4 +176,26 @@ iframe {
 #forecast {
     display: none;
 
+}
+
+#gallery h1 {
+    margin-left: 35px;
+    color: #385a7f;
+}
+
+#images img {
+    max-width: 100%;
+}
+
+.norm {
+    box-shadow: 0 3px 5px #777777; 
+    margin-bottom: 40px;  
+}
+
+.norm:hover {
+    box-shadow: 0 0 30px #777777;
+}
+
+.norm figcaption {
+    padding: 5px 0px 10px 10px;
 }
