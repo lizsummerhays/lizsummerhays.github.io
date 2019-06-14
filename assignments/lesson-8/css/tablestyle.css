@@ -1,0 +1,40 @@
+table {
+    font-family: Ubuntu, sans-serif;
+    color: #000000;
+    text-align: center;
+    box-shadow: 5px 5px 10px #628ca6;
+}
+
+tr {
+    background-color: #e7ffed;
+}
+
+tbody tr:first-child {
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #628ca6;
+}
+
+table, th, td {
+    border: 1px solid gray;
+    border-collapse: collapse;
+}
+
+.gray {
+    background-color: #e7f0ed;
+}
+
+tfoot tr {
+    font-size: .7em;
+    background-color: #7fb9c2;
+
+}
+
+th {
+    background-color: #7fb9c2;
+    font-size: larger;
+}
+
+th, td {
+    padding: 5px;
+}
