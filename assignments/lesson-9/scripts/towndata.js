@@ -36,3 +36,6 @@ function showData(jsonObj) {
         section.appendChild(myArticle);
     }
 }
+
+
+api key: ae20bc68171d3468519b6fc86c3efac9
