@@ -15,7 +15,7 @@ header img, .headings {
 }
 
 header img {
-    width: 25%;
+    width: 200px;
     padding-top: 20px;
     margin-bottom: -20px;
 }
@@ -241,4 +241,19 @@ button {
     color: #385a7f;
     padding-top: 100px;
     padding-bottom: 200px;
+}
+
+#townArticle {
+    width: max-content;
+    line-height: 1em;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 5px 5px 10px #385a7f;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#townArticle img {
+    width: 100%;
 }
