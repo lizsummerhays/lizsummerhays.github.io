@@ -7,10 +7,12 @@ request.send();
 
 request.onload = function() {
     let townData = JSON.parse(request.responseText);
+    console.log(townData);
     showData (townData);
+    
 }
 function showData(jsonObj) {
-    var towns = jsonObj['name'];
+    var towns = jsonObj['towns'];
 
     for (var i = 0; i < towns.length; i++) {
         var myArticle = document.createElement('article');
@@ -24,7 +26,7 @@ function showData(jsonObj) {
         myH4.textContent = towns[i].motto;
         myPara1.textContent = 'Year Founded: ' + towns[i].yearFounded;
         myPara2.textContent = 'Population: ' + towns[i].currentPopulation;
-        myPara3.textContent = 'Annual Rain Fall: ' + towns[i].averageRainfall;
+        myPara3.textContent = 'Annual Rain Fall: ' + towns[i].averageRainfall + ' in';
         
 
         myArticle.appendChild(myH2);
