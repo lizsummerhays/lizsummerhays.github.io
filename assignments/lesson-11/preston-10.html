@@ -63,14 +63,43 @@
             </div>
             <div id="forecast">
                 <h2>5 Day Forecast</h2>
-                <img src="images/forecast.png" alt ="5 day forecast">
+                <table>
+                    <th>
+                        <td><span id="day1"></span></td>
+                        <td><span id="day2"></span></td>
+                        <td><span id="day3"></span></td>
+                        <td><span id="day4"></span></td>
+                        <td><span id="day5"></span></td>
+                    </th>
+                    <th>
+                        <td><img id="icon1"></img></td>
+                        <td><img id="icon2"></img></td>
+                        <td><img id="icon3"></img></td>
+                        <td><img id="icon4"></img></td>
+                        <td><img id="icon5"></img></td>
+                    </th>
+                    <th>
+                        <td><span id="high1"></span>&deg;F</td>
+                        <td><span id="high2"></span>&deg;F</td>
+                        <td><span id="high3"></span>&deg;F</td>
+                        <td><span id="high4"></span>&deg;F</td>
+                        <td><span id="high5"></span>&deg;F</td>
+                    </th>
+                    <th>
+                        <td><span id="low1"></span>&deg;F</td>
+                        <td><span id="low2"></span>&deg;F</td>
+                        <td><span id="low3"></span>&deg;F</td>
+                        <td><span id="low4"></span>&deg;F</td>
+                        <td><span id="low5"></span>&deg;F</td>
+                    </th>
+                </table>
             </div>
             <article class="story">
-                <h2>Article Title<br>
-                    <span>by author</span>
+                <h2>Lightning on the 4th<br>
+                    <span>by Liz</span>
                 </h2>
-                <img src="images/placeholder.png" alt="placeholder">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Risus sed vulputate odio ut enim blandit volutpat maecenas volutpat. Turpis egestas integer eget aliquet nibh. Praesent semper feugiat nibh sed. Diam vel quam elementum pulvinar etiam non quam lacus suspendisse. At quis risus sed vulputate odio ut enim. At ultrices mi tempus imperdiet. Urna condimentum mattis pellentesque id. In mollis nunc sed id semper. Tellus id interdum velit laoreet id donec ultrices tincidunt. Penatibus et magnis dis parturient montes nascetur. Hac habitasse platea dictumst vestibulum rhoncus. Elementum integer enim neque volutpat ac tincidunt vitae semper. Fames ac turpis egestas maecenas pharetra convallis posuere. Facilisis mauris sit amet massa vitae.</p>
+                <img src="images/lightning.jpg" alt="Lightning">
+                <p>We are used to seeing the sky light up with fireworks on the Fourth of July, but the sky was lit up for a completely different reason this year. It is not often that we have thunderstorms on the 4th, but this year we got a brief repreave from the heat of the summer when a thunderstorm rolled through Preston. That night, instead of fireworks, we got to see the earth's natural fireworks in what was described as a breathtaking display of lightning. If you saw the lightning that night, consider yourself lucky, because it might be a while before we get to see those kind of fireworks on the Fourth of July!</p>
 
                 
             </article>
@@ -103,5 +132,6 @@
 <script src="scripts/hamburger.js"></script>
 <script src="scripts/windchill.js"></script>
 <script src="scripts/weatherapi.js"></script>
+<script src="scripts/townjson.js"></script>
 </body>
 </html>

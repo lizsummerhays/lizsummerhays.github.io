@@ -13,4 +13,20 @@ weatherRequest.onload = function() {
     document.getElementById('cc-humidity').innerHTML = weatherData.main.humidity;
     document.getElementById('cc-speed').innerHTML = weatherData.wind.speed;
 
+    var d = new Date();
+    var weekday = new Array(7);
+    weekday[0] = "Sunday";
+    weekday[1] = "Monday";
+    weekday[2] = "Tuesday";
+    weekday[3] = "Wednesday";
+    weekday[4] = "Thursday";
+    weekday[5] = "Friday";
+    weekday[6] = "Saturday";
+
+    var n = weekday[d.getDay()];
+    for (i = 0; i < weekday.length; i++)
+        if (i == 0) {
+            document.getElementById('day1').innerHTML = n;
+        }
+
 }
