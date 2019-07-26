@@ -6,16 +6,15 @@ request.open('GET', requestURL);
 request.send();
 
 request.onload = function() {
-    let townData = JSON.parse(request.responseText);
+    let templeData = JSON.parse(request.responseText);
     console.log(templeData);
     showData (templeData);
     
 }
 function showData(jsonObj) {
-    var temples = jsonObj['temple'];
+    var temple = jsonObj['temple'];
 
-    for (var i = 0; i < temple.length; i++)
-        if (i == 1 || i == 4 || i == 5) {
+    for (var i = 0; i < temple.length; i++) {
             var myP = document.createElement('p');
             myP.id = 'templeP';
             var imgPath = 'images/';
