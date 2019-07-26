@@ -15,19 +15,21 @@ function showData(jsonObj) {
     var temple = jsonObj['temple'];
 
     for (var i = 0; i < temple.length; i++) {
-            var myP = document.createElement('p');
-            myP.id = 'templeP';
-            var imgPath = 'images/';
-            imgPath += temple[i].name.toLowerCase().replace(' ', '');
-            imgPath += '.jpg';
-            var newImg = document.createElement('IMG');
-            newImg.setAttribute("src", imgPath);
-            console.log(imgPath);
+        var myArticle = document.createElement('article');
+        myArticle.id = 'templeArticle';
+        var myH2 = document.createElement('h2');
+        var myH6 = document.createElement('h6');
+        var myPara1 = document.createElement('p');
 
-        newImg.imgPath = imgPath;
-        
-        myP.appendChild(newImg);
-        section.appendChild(myP);
+    myH2.textContent = temple[i].name + 'Closures';
+    myH6.textContent = temple[i].year;
+    myPara1.textContent = temple[i].closures;
+    
+
+    myArticle.appendChild(myH2);
+    myArticle.appendChild(myH6);
+    myArticle.appendChild(myPara1);
+    section.appendChild(myArticle);
     }
 }
 
