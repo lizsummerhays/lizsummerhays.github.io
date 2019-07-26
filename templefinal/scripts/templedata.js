@@ -1,6 +1,6 @@
 let request = new XMLHttpRequest();
 let section = document.querySelector('section');
-let requestURL = "https://lizsummerhays.github.io/temple_final/json/temples.json";
+let requestURL = "https://lizsummerhays.github.io/templefinal/json/temples.json";
 
 request.open('GET', requestURL);
 request.send();
