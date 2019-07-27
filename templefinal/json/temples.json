@@ -5,10 +5,10 @@
             "name": "Indianapolis Indiana Temple",
             "year": "2019",
             "closures": [
-                "Monday, 26 August 2019 - Monday, 9 September 2019\n",
-                "Saturday, 5 October 2019\n",
-                "Wednesday, 27 November 2019 - Thursday, 28 November 2019\n",
-                "Tuesday, 24 December 2019 - Wednesday, 25 December 2019\n",
+                "Monday, 26 August 2019 - Monday, 9 September 2019",
+                "Saturday, 5 October 2019",
+                "Wednesday, 27 November 2019 - Thursday, 28 November 2019",
+                "Tuesday, 24 December 2019 - Wednesday, 25 December 2019",
                 "Tuesday, 31 December 2019"
             ]
 
@@ -18,13 +18,13 @@
             "name": "Laie Hawaii Temple",
             "year": "2019",
             "closures": [
-                "Friday, 4 October 2019 (Limited Hours)\n",
-                "Saturday, 5 October 2019\n",
-                "Wednesday, 27 November 2019 (Limited Hours)\n",
-                "Thursday, 28 November 2019\n",
-                "Tuesday, 24 December 2019 - Wednesday, 25 December 2019\n",
-                "Friday, 27 December 2019 (Limited Hours)\n",
-                "Saturday, 28 December 2019 (Limited Hours)\n",
+                "Friday, 4 October 2019 (Limited Hours)",
+                "Saturday, 5 October 2019",
+                "Wednesday, 27 November 2019 (Limited Hours)",
+                "Thursday, 28 November 2019",
+                "Tuesday, 24 December 2019 - Wednesday, 25 December 2019",
+                "Friday, 27 December 2019 (Limited Hours)",
+                "Saturday, 28 December 2019 (Limited Hours)",
                 "Monday, 30 December 2019 - Monday, 13 January 2020"
             ]
         },
@@ -32,11 +32,11 @@
             "name": "Salt Lake Temple",
             "year": "2019",
             "closures":[
-                "Saturday, 5 October 2019\n",
-                "Thursday, 17 October 2019 (Limited Hours)\n",
-                "Wednesday, 27 November 2019 (Limited Hours)\n",
-                "Thursday, 28 November 2019 - Friday, 29 November 2019\n",
-                "Tuesday, 24 December 2019 - Wednesday, 25 December 2019\n",
+                "Saturday, 5 October 2019",
+                "Thursday, 17 October 2019 (Limited Hours)",
+                "Wednesday, 27 November 2019 (Limited Hours)",
+                "Thursday, 28 November 2019 - Friday, 29 November 2019",
+                "Tuesday, 24 December 2019 - Wednesday, 25 December 2019",
                 "The temple will be closed for renovation starting Sunday, 29 December 2019."
             ]
         },
@@ -44,9 +44,7 @@
             "name": "Stockholm Sweden Temple",
             "year": "2019",
             "closures":[
-                "Saturday, 5 October 2019\n",
-                "Tuesday, 26 November 2019 - Monday, 9 December 2019\n",
-                "Tuesday, 24 December 2019 - Thursday, 26 December 2019"
+                "Saturday, 5 October 2019\nTuesday, 26 November 2019 - Monday, 9 December 2019\nTuesday, 24 December 2019 - Thursday, 26 December 2019"
             ]
         }
     ]
