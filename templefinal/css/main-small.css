@@ -133,7 +133,7 @@ figure img, figcaption {
     color: #FFBB99;
 }
 
-#images img {
+.images img {
     max-width: 100%;
 }
 
