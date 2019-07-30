@@ -3,33 +3,65 @@
     <head>
         <title>Temple Inn & Suites | Missionaries</title>
         <meta charset="utf-8">
+        <link href="css/normalize.css" rel="stylesheet">
+        <link href="css/main-small.css" rel="stylesheet">
         <link href="css/main.css" rel="stylesheet">
     </head>
 
     <body>
         <header>
-            <img src="images/temple_logo.png" alt="temple logo">
+            <img src="images/temple-logo.png" alt="temple logo">
+            <div id="headings">
+                <h1>Temple Inn & Suites</h1>
+            </div>
             <nav>
-                <ul>
+                <ul class="navigation">
+                    <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
                     <li><a href="index.html">Home</a></li>
                     <li><a href="temple.html">Temples</a></li>
                     <li><a href="reservation.html">Reservations</a></li>
                     <li><a href="services.html">Services</a>
-                    <li><a href="reception.html"></a></li>
-                    <li><a href="missionary.html">Missionaries</a></li></li>
+                        <ul>
+                            <li><a href="reception.html">Receptions</a></li>
+                            <li><a href="missionary.html">Missionaries</a></li>
+                        </ul>
+                    </li>
                     <li><a href="contact.html">Contact</a></li>
                 </ul>
             </nav>
         </header>
 
         <main>
-            <section>
+           <h1>Full Time Missionary Appartments</h1>
+           <p>For the wonderful full time missionaries serving in the temple or family history center, we offer suites with kitchenettes to make your stay here a little more homey. Thank you for your dedication and service at the temple! See the gallery below for pictures of our missionary suites. Feel free to send us a message if you have any questions.</p>
 
-            </section>
+           <div id="images">
+    
+                <figure class="norm"><img src="images/hotel1.jpg" alt="Suite Bed"> <figcaption>Each suite has a luxurious king size bed</figcaption></figure>
+    
+                <figure class="norm"><img src="images/hotel2.jpg" alt="Suite Room"> <figcaption>Each suite has a bedroom separate from the rest of the space</figcaption></figure>
+                
+                <figure class="norm"><img src="images/guest-house.jpg" alt="Living Room"> <figcaption>The full time missionary suites have a large living area with a pull out couch great for when family comes to visit</figcaption></figure>
+    
+                <figure class="norm"><img src="images/kitchenette.jpg" alt="Kitchenette"><figcaption>There is a open kitchenette in each suite that features a gas range and oven</figcaption></figure>
+    
+            </div>
+            <form action="thanks.html" method="get">
+                <label for="name">Full Name*</label><br>
+                <input type="text" id="name" name="user_name" required pattern="[a-zA-Z]+[a-zA-Z a-zA-Z]*"><br>
+
+                <label for="mail">E-Mail*</label><br>
+                <input type="email" id="mail" name="user_mail" required placeholder="john.doe@example.com"><br>
+
+                <label for="comments">Message</label><br>
+                <textarea id="coments" name="comments"></textarea>
+
+                <button type="submit" value="submit">Done</button>
+            </form>
         </main>
         <footer>
                 <nav>
-                    <ul>
+                    <ul class="footnav">
                         <li><a href="index.html">Home</a></li>
                         <li><a href="temple.html">Temples</a></li>
                         <li><a href="reservation.html">Reservations</a></li>
@@ -38,8 +70,9 @@
                         <li><a href="references.html">References</a></li>
                     </ul>
                 </nav>
-                <p>Liz Summerhays | BYU-Idaho</p>
+                <p>&copy; 2019 Liz Summerhays | BYU-Idaho</p>
             </footer>
+            <script src="scripts/hamburgermenu.js"></script>
     </body>
 
 </html>

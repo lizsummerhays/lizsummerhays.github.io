@@ -3,33 +3,57 @@
     <head>
         <title>Temple Inn & Suites | Receptions</title>
         <meta charset="utf-8">
+        <link href="css/normalize.css" rel="stylesheet">
+        <link href="css/main-small.css" rel="stylesheet">
         <link href="css/main.css" rel="stylesheet">
     </head>
 
     <body>
         <header>
-            <img src="images/temple_logo.png" alt="temple logo">
+            <img src="images/temple-logo.png" alt="temple logo">
+            <div id="headings">
+                <h1>Temple Inn & Suites</h1>
+            </div>
             <nav>
-                <ul>
+                <ul class="navigation">
+                    <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
                     <li><a href="index.html">Home</a></li>
                     <li><a href="temple.html">Temples</a></li>
                     <li><a href="reservation.html">Reservations</a></li>
-                    <li><a href="services.html">Services</a>
-                    <li><a href="reception.html"></a></li>
-                    <li><a href="missionary.html">Missionaries</a></li></li>
+                    <li><a href="services.html">Services</a>             
+                        <ul>
+                            <li><a href="reception.html">Receptions</a></li>
+                            <li><a href="missionary.html">Missionaries</a></li>
+                        </ul>
+                    </li>
                     <li><a href="contact.html">Contact</a></li>
                 </ul>
             </nav>
         </header>
 
         <main>
-            <section>
-
-            </section>
+            <h1>Host Your Reception Here!</h1>
+            <p>We have many large venues great for hosting a wedding reception, or even a family reunion. Each venue location has a full kitchen for cooking, preparing, and serving food. Check out the gallery below for examples of what our reception spaces can become.</p>
+                    <div id="images">
+    
+                            <figure class="norm"><img src="images/reception.jpg" alt="Wedding Reception"> <figcaption>Reception Venue 1</figcaption></figure>
+                
+                            <figure class="norm"><img src="images/reception1.jpg" alt="Wedding Reception"> <figcaption>Reception Venue 2</figcaption></figure>
+                            
+                            <figure class="norm"><img src="images/reception2.jpg" alt="Wedding Reception"> <figcaption>Reception Venue 3</figcaption></figure>
+                
+                            <figure class="norm"><img src="images/reception3.jpg" alt="Wedding Reception"><figcaption>Reception Venue 4</figcaption></figure>
+                
+                            <figure class="norm"><img src="images/reception4.jpg" alt="Wedding Reception"><figcaption>Reception Venue 5</figcaption></figure>
+                
+                            <figure class="norm"><img src="images/reception5.jpg" alt="Wedding Reception"><figcaption>Reception Venue 6</figcaption></figure>
+                
+                        </div>
+            
         </main>
         <footer>
                 <nav>
-                    <ul>
+                    <ul class="footnav">
                         <li><a href="index.html">Home</a></li>
                         <li><a href="temple.html">Temples</a></li>
                         <li><a href="reservation.html">Reservations</a></li>
@@ -38,8 +62,9 @@
                         <li><a href="references.html">References</a></li>
                     </ul>
                 </nav>
-                <p>Liz Summerhays | BYU-Idaho</p>
+                <p>&copy; 2019 Liz Summerhays | BYU-Idaho</p>
             </footer>
+            <script src="scripts/hamburgermenu.js"></script>
     </body>
 
 </html>

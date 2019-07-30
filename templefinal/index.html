@@ -3,14 +3,24 @@
     <head>
         <title>Temple Inn & Suites | Home</title>
         <meta charset="utf-8">
+        <meta name="description" content="Temple Inn & Suites">
+        <meta name="author" content="Elizabeth Summerhays">
+        <link href="css/normalize.css" rel="stylesheet">
+        <link href="css/main-small.css" rel="stylesheet">
         <link href="css/main.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Courgette&display=swap" rel="stylesheet">
+
     </head>
 
     <body>
         <header>
-            <img src="images/temple_logo.png" alt="temple logo">
+            <img src="images/temple-logo.png" alt="temple logo">
+            <div id="headings">
+                <h1>Temple Inn & Suites</h1>
+            </div>
             <nav>
-                <ul>
+                <ul class="navigation">
+                    <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
                     <li><a href="index.html">Home</a></li>
                     <li><a href="temple.html">Temples</a></li>
                     <li><a href="reservation.html">Reservations</a></li>
@@ -22,12 +32,34 @@
         </header>
 
         <main>
-            <img src="images/ogdentemple.jpg" alt="Ogden Temple">  
+            <div id="home">
+            <img src="images/ogdentemple.jpg" alt="Ogden Temple"> 
+            </div> 
+
+            <h1>Temple Gallery</h1>
+
+            <div id="images">
+    
+                <figure class="norm"><img src="images/orlandotemple.jpg" alt="Orlando Florida Temple"> <figcaption>Orlando Florida Temple</figcaption></figure>
+    
+                <figure class="norm"><img src="images/palmyratemple.jpg" alt="Palmyra New York Temple"> <figcaption>Palmyra New York Temple</figcaption></figure>
+                
+                <figure class="norm"><img src="images/paristemple.jpg" alt="Paris France Temple"> <figcaption>Paris France Temple</figcaption></figure>
+    
+                <figure class="norm"><img src="images/provocitytemple.jpg" alt="Provo City Center Temple"><figcaption>Provo City Center Temple</figcaption></figure>
+    
+                <figure class="norm"><img src="images/rometemple.jpg" alt="Rome Italy Temple"><figcaption>Rome Italy Temple</figcaption></figure>
+    
+                <figure class="norm"><img src="images/sanantoniotemple.jpg" alt="San Antonio Texas Temple"><figcaption>San Antonio Texas Temple</figcaption></figure>
+    
+            </div>
+
+            <a href="contact.html" id="homenavigation">Click Here for Navigation & Contact Information</a>
         </main>
 
         <footer>
             <nav>
-                <ul>
+                <ul class="footnav">
                     <li><a href="index.html">Home</a></li>
                     <li><a href="temple.html">Temples</a></li>
                     <li><a href="reservation.html">Reservations</a></li>
@@ -36,8 +68,9 @@
                     <li><a href="references.html">References</a></li>
                 </ul>
             </nav>
-            <p>Liz Summerhays | BYU-Idaho</p>
+            <p>&copy; 2019 Liz Summerhays | BYU-Idaho</p>
         </footer>
+        <script src="scripts/hamburgermenu.js"></script>
     </body>
 
 </html>

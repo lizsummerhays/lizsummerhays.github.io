@@ -3,20 +3,28 @@
     <head>
         <title>Temple Inn & Suites | Reservations</title>
         <meta charset="utf-8">
+        <meta charset="utf-8">
+        <meta name="description" content="Temple Inn & Suites">
+        <meta name="author" content="Elizabeth Summerhays">
+        <link href="css/normalize.css" rel="stylesheet">
+        <link href="css/main-small.css" rel="stylesheet">
         <link href="css/main.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Courgette&display=swap" rel="stylesheet">
     </head>
 
     <body>
         <header>
-            <img src="images/temple_logo.png" alt="temple logo">
+            <img src="images/temple-logo.png" alt="temple logo">
+            <div id="headings">
+                <h1>Temple Inn & Suites</h1>
+            </div>
             <nav>
-                <ul>
+                <ul class="navigation">
+                    <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
                     <li><a href="index.html">Home</a></li>
                     <li><a href="temple.html">Temples</a></li>
                     <li><a href="reservation.html">Reservations</a></li>
-                    <li><a href="services.html">Services</a>
-                    <li><a href="reception.html"></a></li>
-                    <li><a href="missionary.html">Missionaries</a></li></li>
+                    <li><a href="services.html">Services</a></li>
                     <li><a href="contact.html">Contact</a></li>
                 </ul>
             </nav>
@@ -24,12 +32,65 @@
 
         <main>
             <section>
+                <h1>Booking Information</h1>
+                <form action="thanks.html" method="get">
+                    <label for ="date">Date of Stay*</label><br>
+                    <input type="date" id="date" name="date" required><br>
+
+                    <label for="type">Type of Room*</label><br>
+                    <select name="type" required>
+                        <option value="none" selected disabled>Select Type of Room</option>
+                        <option value="Room Only (short term)">Room Only (short term)</option>
+                        <option value="Suite with Kitchenette (long term)">Suite with Kitchenette (long term)</option>
+                    </select>
+                        <p>**Please select suite only if staying for longer than 7 nights**</p><br>
+
+
+
+                    <label for="length">Number of Nights* (or number of months if booking long-term stay)</label><br>
+                    <select name="length" required>
+                        <option value="none" selected disabled>--</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                        <option value="11">11</option>
+                        <option value="12">12</option>
+                        <option value="13">13</option>
+                        <option value="14">14</option>
+                        <option value="15">15</option>
+                        <option value="16">16</option>
+                        <option value="17">17</option>
+                        <option value="18">18</option>
+                    </select><br>
+
+                    <label for="name">Full Name*</label><br>
+                    <input type="text" id="name" name="user_name" required pattern="[a-zA-Z]+[a-zA-Z a-zA-Z]*"><br>
+
+                    <label for="mail">E-Mail*</label><br>
+                    <input type="email" id="mail" name="user_mail" required placeholder="john.doe@example.com"><br>
+
+                    <label for="phone">Phone Number</label><br>
+                    <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{4}-[0-9]{4}" placeholder="###-####-####"><br>
+
+                    <label for="comments">Special Accommodations or Comments</label><br>
+                    <textarea id="coments" name="comments"></textarea>
+                    <p>* indicates field is Required</p>
+
+                    <button type="submit" value="submit">Complete Reservation</button>
+                </form>
 
             </section>
         </main>
         <footer>
                 <nav>
-                    <ul>
+                    <ul class="footnav">
                         <li><a href="index.html">Home</a></li>
                         <li><a href="temple.html">Temples</a></li>
                         <li><a href="reservation.html">Reservations</a></li>
@@ -38,8 +99,9 @@
                         <li><a href="references.html">References</a></li>
                     </ul>
                 </nav>
-                <p>Liz Summerhays | BYU-Idaho</p>
+                <p>&copy; 2019 Liz Summerhays | BYU-Idaho</p>
             </footer>
+            <script src="scripts/hamburgermenu.js"></script>
     </body>
 
 </html>
